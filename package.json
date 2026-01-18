@@ -12,18 +12,27 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@innovato/strapi-plugin-cron": "^2.0.2",
+    "@strapi-community/plugin-seo": "^2.1.1",
     "@strapi/plugin-cloud": "5.28.0",
     "@strapi/plugin-users-permissions": "5.28.0",
     "@strapi/strapi": "5.28.0",
+    "@webbycrown/advanced-fields": "^1.0.6",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-import-export": "^0.0.1",
+    "strapi-plugin-auto-locales-slug": "^0.0.4",
+    "strapi-plugin-auto-slug-manager-a-mi13": "^1.1.0",
+    "strapi-plugin-comments": "^3.1.2",
+    "strapi-plugin-config-sync": "^3.1.2",
+    "strapi-plugin-duplicate-button": "^2.0.0",
+    "strapi-plugin-preview-button": "^3.0.2",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
